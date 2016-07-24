@@ -33,7 +33,7 @@ The recommended way to install ENSIME is via MELPA stable and `use-package`:
   :pin melpa-stable)
 ```
 
-If you used the sample Emacs configuration from our [`Learning Emacs`](/editors/emacs/learning) section, then you can add the above code to the end of your `~/.emacs.d/init.el` file and restart Emacs.  Emacs will automatically install Ensime during startup.
+If you used the sample Emacs configuration from our [`Learning Emacs`](/editors/emacs/learning) section, then you can add the above code to the end of your `~/.emacs.d/init.el` file and restart Emacs.  Emacs will automatically install Ensime during startup.  Alternatively, you can execute this without restarting Emacs by moving the cursor ("point" in Emacs nomenclature) to the end of the line and typing `C-x C-e`.
 
 To use the unstable version of ENSIME from MELPA, remove `:pin melpa-stable` (not recommended unless you are contributing to ENSIME).
 
